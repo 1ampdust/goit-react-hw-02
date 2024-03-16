@@ -1,18 +1,10 @@
-import { useState, useEffect } from "react";
-
 const App = () => {
-  const [clicks, setClicks] = useState(0);
-
-  // Оголошуємо ефект
-  useEffect(() => {
-    document.title = `You clicked ${clicks} times`;
-  });
-
   return (
-    <button onClick={() => setClicks(clicks + 1)}>
-      You clicked {clicks} times
-    </button>
+    <div>
+      <h1>Sip Happens Café</h1>
+      <p>Please leave your feedback about our service by selecting one of the options below.</p>
+    </div>
   );
 };
 
- export default App;
+export default App;
