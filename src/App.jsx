@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
-import Options from './Options';
-import Feedback from './Feedback';
-import Notification from './Notification';
+import Options from './components/Options';
+import Feedback from './components/Feedback';
+import Notification from './components/Notification';
 
 const App = () => {
   const initialFeedback = JSON.parse(localStorage.getItem('feedback')) || {
