@@ -1,3 +1,4 @@
+//Notification.jsx
 const Notification = ({ message }) => {
   return (
     <div>
